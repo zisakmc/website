@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1 class="title">
+  {{ section.title }}
+</h1>
+<div class = "paginate">
+{% if paginator %}
+{% set pages = paginator.pages %}
+{% else %}
+{% set pages = paginator.pages %}
+{% endif %}
+{% for page in pages %} 
+<article itemscope itemtype = "/content/blog">
+<div class = "blog">
+<div class = "blog-summary">
+  <h3><a href="{{ page.permalink | safe }}">{{ page.title }}</a></h3>
+  <large class = "subtitle">{{page.date}} </large>
+  <p>
+  {{ page.summary | safe }}
+      <a href="{{ page.permalink | safe }}" id = "cont">continue reading...</a>
+    </p>
+</div>
+</div>
+
+{% endfor %}
+</article>
+</div>
+<nav class = "pagination">
+{% if paginator.previous %}
+    <a class = "prev" href = "{{ paginator.previous }}"> prev</a>
+{% endif %}
+{% if paginator.next %}
+    <a class = "next" href = "{{ paginator.next}}"> next</a>
+{% endif %}
+</nav>
+
+{% endblock content %}

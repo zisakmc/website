@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://zisakmc.com/sitemap.xml

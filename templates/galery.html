@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block content %}
+<h1 class="title">
+Galery
+</h1>
+<div class = "img-paginate">
+{% for page in paginator.pages %} 
+
+<article itemscope itemtype = "/static/img">
+<div class = "img-galery">
+
+</div>
+{% endfor %}
+</article>
+</div>
+{% endblock content %}
+<nav class = "img-pagination">
+{% if paginator.previous %}
+    <a class = "prev" href = "{{ paginator.previous }}"> prev</a>
+{% endif %}
+{% if paginator.next %}
+    <a class = "next" href = "{{ paginator.next}}"> next</a>
+{% endif %}
+</nav>
