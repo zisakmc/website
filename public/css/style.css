@@ -25,7 +25,6 @@ h6 {
 
 .section {
  padding:4rem;
- margin:1.75rem 0;
  background-color:black;
  overflow:auto;
  display:block;
@@ -92,4 +91,7 @@ h1.title{
   content: "¤¸¸.•´¯`•¸¸.•..>> ⋜==-+-==≽ <<..•.¸¸•´¯`•.¸¸¤";
  
 color: grey;
+}
+.desktop{
+font-size:0.8rem;
 }
