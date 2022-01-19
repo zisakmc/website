@@ -13,7 +13,10 @@
 <meta name = "discription" content = "Mishael. K.Vabeizisa Personal Website">
 <meta name = "author" content = "Zisa">
 <meta name = "viewport" content = " width=divice-width, initial-scale=1"> 
-<link rel = "stylesheet" href ="{{get_url(path="vendor.css") }}"> <script src = "https://kit.fontawesome.com/f65ac9517e.js" crossorigin = "anonymous"></script> 
+{% block css %}
+<link rel = "stylesheet" href ="{{get_url(path="vendor.css") }}"> 
+{% endblock css %}
+<script src = "https://kit.fontawesome.com/f65ac9517e.js" crossorigin = "anonymous"></script> 
 
 <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
