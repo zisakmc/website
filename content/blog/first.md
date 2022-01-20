@@ -7,7 +7,7 @@ This is my first blog post.
 
 hello friend,
 
-you i'm very bad at writing, that doesn't stop me im going to write
+I'm not very at writing, that doesn't stop me im going to write
 anyway.
 <!-- more --> 
 
