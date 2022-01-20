@@ -6,7 +6,7 @@ page_template = "page.html"
 # About me!
 ---
 
-Form where do I start, I don't know. <br>
+From where do I start, I don't know. <br>
 let's summarizes.
 - First of all I am a normal guy just as you are.
 - And I am a man of Culture as well, I love Anime.
