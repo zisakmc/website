@@ -12,13 +12,8 @@ Do you believe in fate?.<br>
 heres the youtube:
 {{ youtube(id="gDadfh0ZdBM") }}
 
-### Agent Smith Character
-This monologue is somethings else 🤖.<br>
-> **Smith:**
-Billions of People just living out their lives oblivious.
 
-here is the youtube videos see for yourself.<br>
-{{ youtube(id="JrBdYmStZJ4") }}
+
 
 #### Just go and Watch the Matrix.
 ![the matrix](https://media.wired.com/photos/5ca648a330f00e47fd82ae77/16:9/w_1391,h_782,c_limit/Culture_Matrix_Code_corridor.jpg)
